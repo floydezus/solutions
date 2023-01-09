@@ -6,7 +6,7 @@ It's solution for **first** task and it's containing in the branch **"main"**. I
 
 ## Live Preview
 
-https://asciinema.org/a/QaZiniUQh7nJ1IDvjKmHyeLbJ
+[![asciicast](https://asciinema.org/a/QaZiniUQh7nJ1IDvjKmHyeLbJ.svg)](https://asciinema.org/a/QaZiniUQh7nJ1IDvjKmHyeLbJ)
 
 ## Run
 

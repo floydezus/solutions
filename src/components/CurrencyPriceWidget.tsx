@@ -17,7 +17,6 @@ const CurrencyPriceWidget: React.FC = () => {
       setLoading(true);
       const response = await fetch(endpoints.prices(randomNumber(1, 2)));
       const newData = await response.json();
-      console.log(newData);
       setData(newData.prices);
       setErrorMessage("");
     } catch (e: any) {

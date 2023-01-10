@@ -1,8 +1,8 @@
-import * as jsonServer from "json-server";
+import jsonServer from "json-server";
+import { Application } from "express";
 
-const server = jsonServer.create();
-const path = require("path");
-const router = jsonServer.router(path.join(__dirname, "db.json"));
+const server: Application = jsonServer.create();
+const router = jsonServer.router("server/db.json");
 const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
